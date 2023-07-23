@@ -10,8 +10,10 @@ function App() {
       <MovieList />
       <ChoresList />
       <BookList />
+      <HobbyLinks />
     </div>
   );
+
 }
 
 export default App;
