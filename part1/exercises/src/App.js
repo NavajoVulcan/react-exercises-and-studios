@@ -6,14 +6,15 @@ import BookList from './components/BookList.js';
 
 function App() {
   return (
-    <div className="App">
-      <MovieList />
-      <ChoresList />
-      <BookList />
-      <HobbyLinks />
-    </div>
+<div className="App">
+   <ChoresList />
+   <div className="similarComponents">
+     <MovieList />
+     <BookList />
+     <HobbyLinks />
+   </div>
+ </div>
   );
-
 }
 
 export default App;
