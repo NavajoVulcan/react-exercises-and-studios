@@ -11,7 +11,7 @@ function ClickedButton() {
     </button>
   );
 }
-}
+
 
 export default ClickedButton;
 
